@@ -7,12 +7,12 @@ then
 
   echo "Starting application on $environment environment . . ."
   echo "Exporting Variables. . . . ."
-  /usr/local/bin/serve -s dist -l 80 -C
+  /usr/local/bin/npm run serve -- --port 80
 
 else
 
   echo "Starting application on  $environment environment. . . ."
   echo "Exporting Variables. . . . ."
-  /usr/local/bin/serve -s dist -l 80 -C
+  /usr/local/bin/npm run serve -- --port 80
 
 fi
