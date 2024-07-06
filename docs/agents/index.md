@@ -1,20 +1,24 @@
 ---
 sidebar_position: 1
-
+sidebar_label : 'Introduction'
+title: ''
 ---
-# Introduction
+
+## Agents
+
+SimplAI allows you to develop intelligent agents capable of automating tasks, responding to queries, and enhancing productivity. 
 
 ### What are Agents?
 
-Agents are AI-driven team members capable of working independently or as part of a team with other agents and human colleagues. These agents have well-defined roles and responsibilities and can decide the most efficient way to accomplish tasks using the domain-specific knowledge and tools you provide.
+Agents in SimplAI are autonomous entities designed to perform specific tasks or answer queries based on the data and knowledge bases they are connected to. They can automate repetitive tasks, provide intelligent responses, and support various business functions and tools efficiently.
 
-### Getting Started with Agents
+<!-- ### Getting Started with Agents
 
-Here are a few methods to begin building your own agents:
+Here are a few methods to begin building your own agents: -->
 
 <!-- <video of agent flow> -->
 
-### Your AI Agent Workforce
+### AI Agent Capabilities
 
 1. **Scales to Meet Demand**
 Agents can be scaled up or down to meet varying demand levels. Many of our clients experience seasonal demand fluctuations, with some periods or regions requiring more support than others (e.g., education, hospitality, and finance industries).

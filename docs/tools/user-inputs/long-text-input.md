@@ -1,11 +1,13 @@
 ---
-sidebar_position: 3
-
+sidebar_position: 2
+sidebar_label : 'Long Text Input'
+title: ''
 ---
-# Long text input
+## Long Text Input
+
 The Long Text Input component in SimplAI allows users to enter or upload multiple lines of text. This feature is ideal for capturing extended responses, transcriptions, and other lengthy textual data.
 
-**When to Use**
+### **When to Use Long Text Input**
 
 Utilize the Long Text Input component for scenarios requiring detailed text input, such as:
 
@@ -13,20 +15,21 @@ Utilize the Long Text Input component for scenarios requiring detailed text inpu
 - Audio transcriptions
 - Descriptive data entries
 
-**Adding Long Text Input to Your Custom Tool**
+### **Adding Long Text Input to your Tool**
 
 The Long Text Input component is found under the User Inputs section. You can add it to your Tool from the user inputs section.
 
-![Screenshot 2024-06-28 at 22.11.35.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/30c482d3-3a1f-4931-a883-cfdc07ec214f/50d926f4-250f-4080-8cd2-4b0e9689c701/Screenshot_2024-06-28_at_22.11.35.png)
+![US3.png](https://media-simplai.s3.amazonaws.com/US3.png)
 
-**Settings and Configuration**
+### **Long Text Input Configuration**
 
 - **Input name:** Assign a title to your input name component to define its purpose.
 - **Description:** Provide a description explaining the intended use or context of the input.
-- **Variable Name:** Located at the bottom left, marked in pink, this can be renamed for easy reference within your Tool.
+- **Variable Name:** Located at the bottom left, marked in purple, this can be renamed for easy reference within your Tool.
+    
+    ![US4.png](https://media-simplai.s3.amazonaws.com/US4.png)
+    
 
-![Screenshot 2024-06-28 at 22.09.29.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/30c482d3-3a1f-4931-a883-cfdc07ec214f/33ce829d-ca9b-4ffc-ad26-978d38ba8eb2/Screenshot_2024-06-28_at_22.09.29.png)
-
-**Accessing the Entered Text**
+### **Accessing the Entered Text**
 
 To access the text entered in this component, use the variable mode `{{}}` along with the input step name. By default, it is accessible via `{{input_0}}`
